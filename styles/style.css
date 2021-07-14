@@ -201,3 +201,56 @@ body, input, button, html, section{
     height: 100%;
     width: 100%;
 }
+
+/* Search and Lucky Button Portion */
+.button-container{
+    height: 70px;
+    padding-top: 18px;
+    display: grid;
+    place-items: center;
+}
+
+.buttons input[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttons input[type="submit"]:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-color: #dadce0;
+}
+
+/* Translation Portion */
+.translation-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.translation-contents{
+    text-align: center;
+    font-size: small;
+}
+
+.translation-contents a{
+    padding: 0 3px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    text-decoration: underline;
+}
+
+
+
+
