@@ -63,6 +63,26 @@ body, input, button, html, section{
     height: 100%;
 }
 
+.menu{
+    display: inline-block;;
+}
+
+.menu-icon{
+    opacity: 1;
+    color: #5f6368;
+    fill: currentColor;
+    cursor: pointer;
+    padding: 4px
+}
+
+.menu-link{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    padding: 8px;
+}
+
+
 /* Google logo */
 
 .img-google{
